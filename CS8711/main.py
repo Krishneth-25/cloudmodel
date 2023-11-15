@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def CGPA():
-    cc=input("Enter cloud computing grade)
+    {cc=input("Enter cloud computing grade)
     ml=input("Enter machine learning grade)
     cns=input("Enter cybersecurity grade)
     pom=input("Enter principles of management grade)
@@ -43,7 +43,7 @@ def CGPA():
     else:
         cgpa=cgpa+8
 
-    print(cgpa)
+    print(cgpa)}
 
 
 if __name__ == '__main__':
